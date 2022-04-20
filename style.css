@@ -1,0 +1,74 @@
+body{
+
+    background-image: linear-gradient(to right,rgb(240, 240, 240), rgb(60, 60, 60));
+
+
+
+}
+h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;encriptar
+    box-sizing: border-box;
+}  
+
+#encriptar {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+  }
+  #desencriptar {
+    background-color: #3C88E3;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  #copiar {
+    background-color: #DFD650;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  #escuchar {
+    background-color: #CB5FDA;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+.contenedor-principal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(30 41 59);
+    align-items: center;
+    justify-content: center;  
+    height: 50%; 
+    width: 50%;   
+    justify-content: center;
+    position: absolute;        
+    margin: 0 auto;
+    border-radius: 50% 20% / 10% 40%;}
